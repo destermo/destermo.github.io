@@ -8,7 +8,7 @@ function generateRandomString($length = 10) {
     }
     return $randomString;
 }
-echo "<html><head><title>Time Log</title></head><body><iframe src='https://destermo.github.io/date.html?str=";
+echo "<html><head><meta http-equiv='refresh' content='60'><title>Time Log</title></head><body><iframe src='https://destermo.github.io/date.html?str=";
 echo generateRandomString(50);
 echo "'></iframe></body></html>";
 ?>
